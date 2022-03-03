@@ -1,0 +1,28 @@
+h2{
+    font-weight:bolder;
+    background-color: rgb(201, 40, 40);
+
+}
+div{
+    height: 300px;
+    width: 300px;
+    background-image:url("https://assets.pokemon.com/static2/_ui/img/og-default-image.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    color:rgb(71, 71, 207);
+    text-transform: capitalize;
+    font-weight: bold;
+    
+}
+h3{
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-top: 30px;
+}
+li{
+    text-transform: capitalize;
+    font-weight:bold;
+}

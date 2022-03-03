@@ -1,0 +1,21 @@
+body{
+    background-color: antiquewhite;
+}
+div{
+    background-color: white;
+    width: 700px;
+}
+#d1{
+    border:solid 1px;
+}
+#d2{
+    border:dashed 3px;
+}
+#d3{
+    border:solid black 1px;
+    color:blueviolet;
+}
+#p1{
+    border:dashed red 3px ;
+    margin:15px 5px;
+}

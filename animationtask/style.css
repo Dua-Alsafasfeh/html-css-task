@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(59, 54, 54);
+}
+
+h2{
+    color: red;
+    font-weight: 500px;
+}
+div{
+    position: absolute;
+    left: 45%;
+    top: 40%;
+}
+
+button{
+    border: 1px solid rgb(236, 72, 80);
+    width: 100px;
+    padding: 5px;
+    margin: 7px;
+    background: none;
+    display: block;
+    text-align: center;
+    color:white;
+    overflow: hidden;
+    transition: 1s all ease;
+
+    /*animation-name: button-style;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;*/
+    
+
+}
+
+/*button:hover{
+    cursor:pointer;transform: scale(1.2, 1.2);
+	border-radius: 45px;
+	background-color: lightblue;
+	color: black;
+	box-shadow: 0 0 50px lightblue;
+
+}
+@keyframes button-style{
+    0%{
+        background-color: black;
+
+    }
+    100%{
+        background-color: palevioletred;
+    }
+   
+}*/

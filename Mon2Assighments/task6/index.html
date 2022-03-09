@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            width: 900px;
+            height: 900px;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: auto auto  auto auto;
+            row-gap: 3px;
+            column-gap: 3px;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+        }
+        #p1{
+            background-color: orangered;
+            width: 200px;
+            height: 200px;
+            grid-column: 3;
+        }
+        #p2{
+            background-color: blue;
+            width: 200px;
+            height: 200px;
+            grid-area: 3/4;
+        }
+        #a1{
+            grid-area: 3/2;
+        }
+        #a2{
+            grid-area: 4/4;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <img src="./بطاقات-تهنئة-بمناسبة-يوم-المراة-العالمي-2022.webp" alt="">
+        <img src="./رسائل عن يوم المرأة العالمي 2022-8.jpg" alt="">
+        <img src="./International Women's Day 2022.jpg" alt="">
+        <p id="p1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <img id="a1" src="./GettyImages-1167560383_413205512_747927761.jpg" alt="">
+        <p id="p2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <img id="a2" src="./zzz (19).jpg" alt="">
+    </div>
+   
+</body>
+</html>
